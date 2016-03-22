@@ -1,0 +1,42 @@
+<div class="row myfix">
+  <div class="col-md-9 left">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1 top-links">
+          <ul>
+            <li><h4>My Work</h4></li>
+            <li><h4 class="blog">Blog</h4></li>
+            <li><%= link_to '<img src="/assets/hi.png">'.html_safe, "mailto:dan85.cardenas@gmail.com?subject=Hi!" %>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 intro-content">
+          <h2 class="name">DANIEL CARDENAS</h2>
+          <h4>Full Stack Developer & Designer</h4>
+          <p>Hi! My name is Daniel but you can call me Danny :)
+            I develop and design over at <a href="http://www.scrive.link/landing" target="_blank">SCRIVE.</a>
+            I truly feel blessed to be able to do what I love for
+            a living. 
+          </p>
+          <span id="home"><img src="data:image/gif;base64,R0lGODlhAQABAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAP8ALAAAAAABAAEAAAgEAP8FBAA7"></span>
+        </div>
+      </div>
+    </div>
+  </div><!--end of col 9 left -->
+  <div class="col-md-3 right">
+    <div class="container-fluid">
+      <div row="row">
+        <div class="col-md-3 social">
+          <%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/kathanddan.png", class: "img-circle" %>
+          <ul>
+            <li class="twitter"><%= link_to '<i class="fa fa-twitter fa-2x"></i>'.html_safe, "https://twitter.com/dan_inmotion", target: "_blank" %></li>
+            <li class="instagram"><%= link_to '<i class="fa fa-instagram fa-2x"></i>'.html_safe, "https://www.instagram.com/daninmotion/", target: "_blank" %></li>
+            <li class="github"><%= link_to '<i class="fa fa-github fa-2x"></i>'.html_safe, "https://github.com/daninmotion", target: "_blank" %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--end of myfix row -->

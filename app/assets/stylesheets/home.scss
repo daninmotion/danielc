@@ -1,0 +1,146 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  height: 100%;
+
+}
+
+.myfix {  
+  height: 100%;
+}
+
+.left {
+  width:100%;
+  height:100%;
+  min-height:100%;
+  background-color: #846dc5;
+}
+
+.kath {
+}
+
+.right {
+  width:100%;
+  height:100%;
+  min-height:100%;
+}
+
+.name {
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.intro-content {
+
+  margin: 90px 0;
+
+  h4 {
+    margin-top: 25px; 
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  p {
+    margin-top: 25px; 
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+
+.intro-content p a {
+  font-weight: 900;
+  color: #fac042;
+}
+
+.intro-content p a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.social {
+  margin-top: 220px;
+  margin-left: 25px;
+}
+
+.social .img-circle {
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
+
+.social ul {
+  display: table-row;
+}
+
+.social ul li {
+  display: table-cell;
+  padding-right: 50px;
+  height: 100px;
+  width: 100px;
+  list-style-type: none;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.social a {
+  color: black;
+  text-decoration: none;
+}
+
+.social .twitter a:hover {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.social .instagram a:hover {
+  color: #074d7d;
+  text-decoration: none;
+}
+
+.social .github a:hover {
+  color: #3fde16;
+  text-decoration: none;
+}
+
+.social ul li.github {
+  padding-right: 0px;
+}
+
+/***iPhone(small screen)**/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .intro-content {
+    margin-top: 100px;
+  }
+
+  .social {
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+
+  .social .img-circle {
+    margin-left: 15px;
+  }
+
+  .social ul li.github {
+    padding-right: 0px;
+  }
+
+  #home img {
+    width: 28px;
+    height: 28px;
+    background: url('chevron_down.png');
+  }
+
+}
+
+/***iPads***/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+}
+

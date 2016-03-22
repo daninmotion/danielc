@@ -1,0 +1,21 @@
+.top-links {
+  padding: 20px;
+  color: white;
+}
+
+.top-links ul {
+  display: table-row;
+}
+
+.top-links ul li {
+  display: table-cell;
+  height: 100px;
+  width: 100px;
+  list-style-type: none;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.top-links img {
+  margin-left: -35px;
+}
