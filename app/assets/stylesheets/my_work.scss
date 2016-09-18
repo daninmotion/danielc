@@ -7,3 +7,9 @@
 hr {
   width: 80%;
 }
+
+.ondek a:hover img {
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-transition: box-shadow .15s ease-in-out;
+	transition: box-shadow .15s ease-in-out;
+}
