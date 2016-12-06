@@ -14,13 +14,39 @@
 	}
 }
 
-p {
-	margin: 0 0 10px;
-	font-size: 15px;
+/*** Type ***/
+
+.section-one h2 {
+	margin-top: 50px;
+}
+
+.content-section a {
+	color: #908AFA;
+	&:hover {
+		color: #7974D1;
+		text-decoration: none;
+	}
+}
+
+.content-section h2 {
+	font-size: 36px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+}
+
+.content-section p {
+	font-size: 18px;
+	font-family: 'Gentium Basic', serif;
+	color: #3A4145;
 	line-height: 40px;
 }
 
-h2 {
-	margin-top: 50px !important;
+.content-section h5 {
+	margin-top: 40px;
+}
+
+.content-section img {
+	padding-bottom: 40px;
 }
 

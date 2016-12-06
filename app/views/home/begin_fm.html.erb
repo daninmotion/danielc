@@ -5,61 +5,63 @@
 		</div>
 	</div>
 </div>
-<div class="row section-one">
-	<div class="col-md-12">
-		<div class="col-md-6 col-md-offset-3">
-			<h2>Begin.fm</h2>
-			<p>
-				My journey with this project start early January of 2016. I was really inspired by a few great podcast stations that I listen to almost every week. For example <a href="https://spec.fm/podcasts/design-details" target="_blank">Design Details</a>, <a href="https://spec.fm/podcasts/does-not-compute" target="_blank">Does Not Compute</a>, and <a href="http://fourhourworkweek.com/podcast/" target="_blank">The Tim Ferris Show</a>, just to name a few. I know I couldn't compete with these amazing shows. The only way I could make this work is if I had a story to tell unique to my perspective. But, I had no clue as to what that would be. What I did know was who I wanted to have on the show. I wanted to have other creatives to share their stories and resources. Now, here's the problem...I had nothing in return for these folks. No audience, no money, nothing. I of course thought to my self, who on the hell would want to come and do a podcast with a random dude that has nothing to offer in return? Not to mention, what equipment would I use? How was I going to records? and plenty of other questions. 
+<div class="content-section">
+	<div class="row section-one">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Begin.fm</h2>
+				<p>
+					My journey with this project start early January of 2016. I was really inspired by a few great podcast stations that I listen to almost every week. For example <a href="https://spec.fm/podcasts/design-details" target="_blank">Design Details</a>, <a href="https://spec.fm/podcasts/does-not-compute" target="_blank">Does Not Compute</a>, and <a href="http://fourhourworkweek.com/podcast/" target="_blank">The Tim Ferris Show</a>, just to name a few. I know I couldn't compete with these amazing shows. The only way I could make this work is if I had a story to tell unique to my perspective. But, I had no clue as to what that would be. What I did know was who I wanted to have on the show. I wanted to have other creatives to share their stories and resources. Now, here's the problem...I had nothing in return for these folks. No audience, no money, nothing. I of course thought to my self, who on the hell would want to come and do a podcast with a random dude that has nothing to offer in return? Not to mention, what equipment would I use? How was I going to records? and plenty of other questions. 
+					<br>
+					This idea simmered in my head for a few months until one day I pretty much said, fuck it! And reached out to a rad developer and asked him if he wanted to record a show for my pretend podcast. I held my breath waiting for a hard no...But, to my surprise. He said yes. Holly cow, this is about to happen. I grabbed my headphones sent him a <a href="https://www.uberconference.com/" target="_blank">UberConference</a> link and started to record our conversation. And from there, <a href="http://www.beginfm.co/" target="_blank">Begin.fm</a> was born... 
+				<p>
+			</div>
+		</div>
+	</div>
+	<!-- end of section-one -->
+
+	<div class="row section-two">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Project Overview & Design</h2>
+				<p>
+					The idea was to create a minimal but aesthetically pleasing responsive site that would allow users to listen to each episode regardless of what device they are using. I definitely wanted to use some sort of card panel layout and have each episode assigned to it's own panel.
+				</p>
+				<h5><strong>Home Page</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/begin-fm/Home-2-1440x1452.png", class: "img-responsive" %>
 				<br>
-				This idea simmered in my head for a few months until one day I pretty much said, fuck it! And reached out to a rad developer and asked him if he wanted to record a show for my pretend podcast. I held my breath waiting for a hard no...But, to my surprise. He said yes. Holly cow, this is about to happen. I grabbed my headphones sent him a <a href="https://www.uberconference.com/" target="_blank">UberConference</a> link and started to record our conversation. And from there, <a href="http://www.beginfm.co/" target="_blank">Begin.fm</a> was born... 
-			<p>
+				<p>
+					When a user clicks on the "Listen to episode" link I wanted them to be redirected to a page where they can play the episode and view all it's corresponding show notes. I wanted a simple color scheme. White card panels with a slightly gray background and a touch of purple purple scattered throughout.
+				</p>
+				<h5><strong>Listen to Episode Page</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/begin-fm/Episode-page-1440x1452.png", class: "img-responsive" %>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- end of section-one -->
+	<!-- end of section-two -->
 
-<div class="row section-two">
-	<div class="col-md-12">
-		<div class="col-md-6 col-md-offset-3">
-			<h2>Project Overview & Design</h2>
-			<p>
-				The idea was to create a minimal but aesthetically pleasing responsive site that would allow users to listen to each episode regardless of what device they are using. I definitely wanted to use some sort of card panel layout and have each episode assigned to it's own panel.
-			</p>
-			<h5><strong>Home Page</strong></h5>
-			<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/begin-fm/Home-2-1440x1452.png", class: "img-responsive" %>
-			<br>
-			<p>
-				When a user clicks on the "Listen to episode" link I wanted them to be redirected to a page where they can play the episode and view all it's corresponding show notes. I wanted a simple color scheme. White card panels with a slightly gray background and a touch of purple purple scattered throughout.
-			</p>
-			<h5><strong>Listen to Episode Page</strong></h5>
-			<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/begin-fm/Episode-page-1440x1452.png", class: "img-responsive" %>
+	<div class="row section-three">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>My Struggles</h2>
+				<p>
+					Integrating Amazon S3 to store my mp3's wasn't too bad. Especially since I had worked with Amazon S3 before. I can definitely say the hardest part for me was integrating jPlayer with Ruby on Rails. Styling it in CSS to fit my psd design. And making it responsive.
+				</p>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- end of section-two -->
+	<!-- end of section-three -->
 
-<div class="row section-three">
-	<div class="col-md-12">
-		<div class="col-md-6 col-md-offset-3">
-			<h2>My Struggles</h2>
-			<p>
-				Integrating Amazon S3 to store my mp3's wasn't too bad. Especially since I had worked with Amazon S3 before. I can definitely say the hardest part for me was integrating jPlayer with Ruby on Rails. Styling it in CSS to fit my psd design. And making it responsive.
-			</p>
+	<div class="row section-five">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>What the future holds?</h2>
+				<p>
+					So for for branding I just have a simple purple title logo in bold 'Roboto' font. I would like to spend sometime to come up with an actual well thought out logo. That would of course take sometime and to be honest I wanted to launch it already, even if I didn't have a well planned out logo.  
+					<br>
+					I do want to add a "Download" episode link. And style my admin dashboard. But, since it's just me doing all the admin work I can live with what I got. I don't really know where this is going to take me or if it will even be a "thing", period. But, regardless of the outcome, I'm extremely happy that I was able to ship it, share it with the world, and meet some rad folks along the way 😎 
+				</p>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- end of section-three -->
-
-<div class="row section-five">
-	<div class="col-md-12">
-		<div class="col-md-6 col-md-offset-3">
-			<h2>What the future holds?</h2>
-			<p>
-				So for for branding I just have a simple purple title logo in bold 'Roboto' font. I would like to spend sometime to come up with an actual well thought out logo. That would of course take sometime and to be honest I wanted to launch it already, even if I didn't have a well planned out logo.  
-				<br>
-				I do want to add a "Download" episode link. And style my admin dashboard. But, since it's just me doing all the admin work I can live with what I got. I don't really know where this is going to take me or if it will even be a "thing", period. But, regardless of the outcome, I'm extremely happy that I was able to ship it, share it with the world, and meet some rad folks along the way 😎 
-			</p>
-		</div>
-	</div>
-</div>
+</div><!-- content-section -->
