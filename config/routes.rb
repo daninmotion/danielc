@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   get '/home_two', to: 'home#home_two'
 
   get '/projects', to: 'home#projects'
+
+  get '/cleanit', to: 'home#cleanit'
 end
