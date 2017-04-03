@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   get '/cleanit', to: 'home#cleanit'
 
   get '/s_logo', to: 'home#s_logo'
+
+  get '/waldan', to: 'home#waldan'
 end

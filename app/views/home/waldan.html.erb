@@ -1,0 +1,83 @@
+<div class="row">
+	<div class="col-md-12 hero-image-waldan">
+		<div class="col-md-6 col-md-offset-3">
+			<a href="http://www.waldanwatches.com/" target="_blank"><%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-logo-1431x748.png", class: "img-responsive center-block" %></a>
+		</div>
+	</div>
+</div>
+<div class="content-section">
+	<div class="row section-one">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Waldan Watches</h2>
+				<h3><a href="http://www.waldanwatches.com/" target="_blank">Launch the site</a></h3>
+				<p>
+					Waldan Watches has been around since 1979. They have always been selling their timeless pieces in small exclusive boutiques. But that was about to change.</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of section-one -->
+
+	<div class="row section-two">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Project Overview</h2>
+				<p>
+					I worked on this project under <a href="http://www.waldanwatches.com/" target="_blank">MCO</a>, the creative agency tasked in bringing Waldan Watches' entire buying experience online. There were a lot of moving parts at play. I worked with a contracted designer to iterate through multiple PSDs and bring them to life. A feature request that was a must for the shop was the ability for customers to customize their watch strap's color before placing an order. As a team we would have multiple meetings with the CEO of Waldan Watches, Andrew Waldan, to hear out his concerns. The most important concern was making sure that these high valued watches were secured when shipped out. This meant integrating some sort of third party API that would work simultaneously with the checkout process. 
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of section-two -->
+
+	<div class="row section-three">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Web Development</h2>
+				<p>
+					We knew that our studio was taking some amazing photographs of the product and filming a few lifestyle videos. We wanted to be able to showcase some of those beautiful shots. After multiple iterations here's what we went with;
+				</p>
+				<h5><strong>Hero</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-hero-1900x965.png", class: "img-responsive" %>
+				<p>
+					As soon as you land on the page you are greeted with this beautiful image of the product. With a brief description and the call to action to discover more of that particular watch piece.
+				</p>
+				<h5><strong>New Arrivals</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-new-arrivals-1900x965.png", class: "img-responsive" %>
+				<h5><strong>New Arrivals - Hover</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-new-arrivals-two-1900x965.png", class: "img-responsive" %>
+				<p>
+					It was important to the client for the new products not to get lost in the site. Which is why we decided to create a section in the home page that would showcase new arrivals. Since there were so many I decided to place them in a slider and when you hover over each watch the image is enlarged with the watch name. 
+				</p>
+				<h5><strong>Strap Customization</strong></h5>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-strap-feature-1900x965.png", class: "img-responsive" %>
+				<%= image_tag "https://s3.amazonaws.com/danielcardeans-link/Images/w-strap-feature-two-1900x965.png", class: "img-responsive" %>
+				<p>This was probably one of the most tedious features to implement on the backend. In order to make sure all watches each had 16 different strap color variations I had to spend a lot of time in Affinity designer. I would take each watch picture and strap picture taken in the studio and start editing them to fit well with each other. I had to make sure I was as precise as possible. If not the strap color customization wouldn't transition well and look too fake to the user. It would cause a slight glitch and jump in the image.</p>
+			</div>
+	</div>
+	<!-- end of section-three -->
+
+	<div class="row section-four">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Integrating a third party API</h2>
+				<p>
+					One of the most important concerns addressed to us was the need for some sort of backend process that would add insurance to each watch when an order is placed. Each watch can range from $5,000 to $25,000. Fortunately I was able to find the solution with <a href="https://www.riskified.com/ " target="_blank">Riskified</a>. Riskified helps avoid and protect against fraud on high cost items sold online. At that moment there was no plugin to use in WordPress. I had to use their API documentation and integrate it with Stripe, which was the payment system setup for the shop.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of section-four -->
+
+	<div class="row section-five">
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>What I learned?</h2>
+				<p>
+					WordPress and visual composer are two powerful tools. Initially I wasn't too familiar with WordPress and didn't want to use it on this project. But the client was already familiar with the platform and expressed his need to use it. I stumbled on visual composer and was pretty impressed by it's capabilities to recreate the PSD designs without having to start from scratch and using PHP. Plus, it was really well documented. Instead, since we were on a tight deadline, I was able to use visual composer to build out the frontend  and created a child theme in order to use some custom javascript and css code that would get this project across the finish line before it's launch date.  
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- content -->
