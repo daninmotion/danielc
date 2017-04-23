@@ -1,5 +1,12 @@
 /*** Type ***/
 
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
 .content h1 {
 	font-size: 48px;
 	font-weight: 800;
@@ -61,44 +68,10 @@
 
 /*** Media Queries ***/
 
-/* Screens between 375px and 667px */
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+/* Screens smaller than 1280px*/
+@media only screen and (max-width: 1280px) {
 	.content {
-		margin-top: 140px;
+		padding-top: 50px;
 	}
 }
 
-/* Screens between 414px and 736px */
-@media only screen and (min-width: 414px) and (max-width: 736px) {
-	.content {
-		margin-top: 170px;
-	}
-}
-
-/* Screens between 768px and 1024px */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	.content {
-		margin-top: 350px;
-	}
-}
-
-/* Screens larger than 1240px*/
-@media only screen and (min-width: 1240px) {
-	.content {
-		margin-top: 200px;
-	}
-}
-
-/* Screens between 1293px and 1440px */
-@media only screen and (min-width: 1293px) and (max-width: 1440px) {
-	.content {
-		margin-top: 500px;
-	}
-}
-
-/* Screens between 2328px and 2560px */
-@media only screen and (min-width: 2328px) and (max-width: 2560px) {
-	.content {
-		margin-top: 1000px;
-	}
-}
